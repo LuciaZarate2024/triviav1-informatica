@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia de informática</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="tarjeta">
+      <h1>Trivia de informática</h1>
+      <p>¡Pon a prueba tus conocimientos!</p>
+
+      <p id="progreso"></p>
+      <h2 id="pregunta"></h2>
+
+      <!-- JavaScript creará aquí los botones de respuesta. -->
+      <div id="opciones"></div>
+
+      <p id="mensaje" aria-live="polite"></p>
+      <p id="puntaje"></p>
+
+      <button id="siguiente" hidden>Siguiente pregunta</button>
+      <button id="reiniciar" hidden>Volver a jugar</button>
+    </main>
+  </body>
+</html>

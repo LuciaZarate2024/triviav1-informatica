@@ -1,0 +1,63 @@
+/* Incluye el borde y el relleno dentro del ancho de cada elemento. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eaf2ff;
+  font-family: Arial, sans-serif;
+  color: #183153;
+}
+
+.tarjeta {
+  width: 100%;
+  max-width: 550px;
+  padding: 25px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 8px 25px #18315320;
+}
+
+h1 {
+  color: #175cd3;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+button {
+  width: 100%;
+  min-height: 48px;
+  margin: 6px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #175cd3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #124aa8;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+#mensaje {
+  font-weight: bold;
+}
+
+#puntaje {
+  font-weight: bold;
+}
